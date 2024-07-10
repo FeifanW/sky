@@ -11,4 +11,6 @@ public interface OrderService {
      * @return
      */
     OrderSubmitVO submitOrder(OrdersSubmitDTO ordersSubmitDTO);
+
+    void reminder(Long id);
 }
